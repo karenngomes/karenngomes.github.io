@@ -3,5 +3,7 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
+featured_repos:
+  - karenngomes/otimizacao-vagas-monitoria
+  - karenngomes/desafio-jogo-da-lula
   - karenngomes/karenngomes.github.io
