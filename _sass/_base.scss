@@ -535,6 +535,22 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repo {
+  width: 100%;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  margin: 0.5rem;
+
+  a {
+    color: inherit;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 0.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
