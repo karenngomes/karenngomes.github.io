@@ -400,11 +400,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-carta-de-uma-orientadora-sobre-pesquisa-e-escrita-acadêmicas",
+          title: 'Carta de uma orientadora: sobre pesquisa e escrita acadêmicas',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/carta-de-uma-orientadora/";
             },},{id: "news-paper-accepted-at-brasnam-2026",
           title: 'Paper accepted at BraSNAM 2026',
           description: "",
