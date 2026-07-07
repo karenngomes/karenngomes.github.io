@@ -65,6 +65,11 @@ layout: default
                   <i class="ai ai-google-scholar"></i> Google Scholar
                 </a>
               {% endif %}
+              {% if site.data.socials.lattes_id %}
+                <a href="http://lattes.cnpq.br/{{ site.data.socials.lattes_id }}" title="Lattes">
+                  <i class="ai ai-lattes"></i> Lattes
+                </a>
+              {% endif %}
               {% if site.data.socials.email %}
                 <a href="mailto:{{ site.data.socials.email }}" title="Email">
                   <i class="fa-solid fa-envelope"></i> {{ site.data.socials.email }}

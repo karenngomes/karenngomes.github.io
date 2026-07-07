@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: "Carta de uma orientadora: sobre pesquisa e escrita acadêmicas"
+title: Carta de uma orientadora
 author: Debora Diniz
 cover: assets/img/book_covers/carta-de-uma-orientadora.jpg
 isbn: 6558021501
