@@ -2,7 +2,8 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: true # promoted out of the (now disabled) submenus dropdown
+nav_order: 8
 collection: books
 ---
 
