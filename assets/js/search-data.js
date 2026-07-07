@@ -400,8 +400,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-carta-de-uma-orientadora-sobre-pesquisa-e-escrita-acadêmicas",
-          title: 'Carta de uma orientadora: sobre pesquisa e escrita acadêmicas',
+      },{id: "books-carta-de-uma-orientadora",
+          title: 'Carta de uma orientadora',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/carta-de-uma-orientadora/";
@@ -502,6 +502,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/gomesskaren", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("http://lattes.cnpq.br/8140363595018755", "_blank");
         },
       },{
         id: 'social-rss',
