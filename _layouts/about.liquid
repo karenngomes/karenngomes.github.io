@@ -44,7 +44,33 @@ layout: default
         <!-- Social -->
         {% if page.social %}
           <div class="social">
-            <div class="contact-icons">{% social_links %}</div>
+            <div class="contact-icons">
+              {% if site.data.socials.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin"></i> {{ site.data.socials.linkedin_username }}
+                </a>
+              {% endif %}
+              {% if site.data.socials.github_username %}
+                <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub">
+                  <i class="fa-brands fa-github"></i> {{ site.data.socials.github_username }}
+                </a>
+              {% endif %}
+              {% if site.data.socials.x_username %}
+                <a href="https://twitter.com/{{ site.data.socials.x_username }}" title="X (Twitter)">
+                  <i class="fa-brands fa-x-twitter"></i> {{ site.data.socials.x_username }}
+                </a>
+              {% endif %}
+              {% if site.data.socials.scholar_userid %}
+                <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar">
+                  <i class="ai ai-google-scholar"></i> Google Scholar
+                </a>
+              {% endif %}
+              {% if site.data.socials.email %}
+                <a href="mailto:{{ site.data.socials.email }}" title="Email">
+                  <i class="fa-solid fa-envelope"></i> {{ site.data.socials.email }}
+                </a>
+              {% endif %}
+            </div>
 
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
